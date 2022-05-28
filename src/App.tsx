@@ -1,5 +1,6 @@
 import React from "react";
-const App: React.FC = (props) => {
+
+const App = () => {
   return <div>Webpack is cool!</div>;
 };
 
