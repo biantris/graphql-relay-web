@@ -13,7 +13,7 @@ See Back-end project [koa-server](https://github.com/biantris/koa-server)
 [wip]
 
 ## to-do
-[wip]
+- https://github.com/biantris/graphql-relay-web/projects/1?add_cards_query=is%3Aopen
 
 ## contributions
 Feel free to contribute to this project, if you find any bugs or improvements, open an issue and send a PR about it \o/
