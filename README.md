@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/65451957/170831507-263d2e8f-2597-48ea-b631-ffd69291e652.png)
+![image](https://user-images.githubusercontent.com/65451957/170831574-d80bac25-d618-47e4-bc1f-2afddc8b6f94.png)
 
 # graphql-relay-web
 Website built with React, Relay and GraphQL
