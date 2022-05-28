@@ -6,6 +6,7 @@ See Back-end project [koa-server](https://github.com/biantris/koa-server)
 🚧 WIP 🚧
 - [ ] GraphQL
 - [ ] Relay
+- [ ] Relay hooks
 - [ ] Jest
 - [ ] Testing Library
 
