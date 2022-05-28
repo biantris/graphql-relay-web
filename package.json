@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
@@ -13,7 +13,7 @@
     "@babel/preset-typescript": "^7.7.7",
     "@types/node": "^12.12.5",
     "@types/react": "^16.9.11",
-    "@types/react-dom": "^16.9.3",
+    "@types/react-dom": "^18.0.5",
     "babel-loader": "^8.0.6",
     "cross-env": "^6.0.3",
     "html-webpack-plugin": "^3.2.0",
