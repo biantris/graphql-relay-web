@@ -1,7 +1,11 @@
-import React from "react";
+import React from 'react';
 
-const App = () => {
-  return <div>Webpack is cool!</div>;
-};
+import Providers from './Providers';
 
-export default App;
+export const App = () => (
+  <Providers>
+    <React.Suspense fallback={'Loading...'}>
+      <div>\o/</div>
+    </React.Suspense>
+  </Providers>
+);
