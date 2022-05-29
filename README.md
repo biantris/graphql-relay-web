@@ -6,8 +6,7 @@ Website built with React, Relay and GraphQL
 See Back-end project [koa-server](https://github.com/biantris/koa-server)
 
 🚧 WIP 🚧
-- [ ] GraphQL
-- [ ] Relay
+- [x] Relay
 - [ ] Relay hooks
 - [ ] Jest
 - [ ] Testing Library
