@@ -1,11 +1,14 @@
 import React from 'react';
 
+import Routes from './routes';
 import Providers from './Providers';
 
+import { Environment } from './relay';
+
 export const App = () => (
-  <Providers>
+  <Providers environment={Environment}>
     <React.Suspense fallback={'Loading...'}>
-      <div>\o/</div>
+      <Routes />
     </React.Suspense>
   </Providers>
 );

@@ -1,19 +1,21 @@
 {
   "name": "graphql-relay-web",
   "version": "1.0.0",
-  "main": "index.js",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
     "@material-ui/core": "5.0.0-alpha.34",
     "@material-ui/styles": "^4.11.5",
     "@mui/icons-material": "^5.6.2",
-    "@mui/material": "^5.2.8",
+    "@mui/material": "^5.8.1",
     "@mui/styles": "^5.2.3",
+    "@types/react-router-dom": "^5.3.3",
     "notistack": "^2.0.3",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-relay": "^13.2.0",
+    "react-router-dom": "^6.3.0",
+    "rebass": "^4.0.7",
     "relay-runtime": "^13.2.0",
     "styled-components": "^5.3.5"
   },
@@ -26,6 +28,7 @@
     "@types/react": "^16.9.11",
     "@types/react-dom": "^18.0.5",
     "@types/react-relay": "^13.0.2",
+    "@types/rebass": "^4.0.10",
     "@types/relay-runtime": "^13.0.3",
     "@types/styled-components": "^5.1.25",
     "babel-loader": "^8.0.6",
@@ -46,9 +49,5 @@
     "build": "cross-env NODE_ENV=production webpack",
     "relay": "relay-compiler --src ./src --schema ./schema.graphql",
     "start": "serve dist"
-  },
-  "relay": {
-    "src": "./src/",
-    "schema": "./schema.graphql"
   }
 }
