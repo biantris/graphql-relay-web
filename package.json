@@ -36,7 +36,9 @@
     "cross-env": "^6.0.3",
     "graphql": "^16.5.0",
     "html-webpack-plugin": "^3.2.0",
-    "relay-compiler": "^13.2.0",
+    "relay-compiler": "^11.0.2",
+    "relay-compiler-language-typescript": "^12.0.1",
+    "relay-config": "^11.0.2",
     "serve": "^11.3.0",
     "terser-webpack-plugin": "^2.3.2",
     "typescript": "^3.7.4",
@@ -47,7 +49,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server",
     "build": "cross-env NODE_ENV=production webpack",
-    "relay": "relay-compiler --src ./src --schema ./schema.graphql",
+    "relay": "relay-compiler --src ./src --schema ./schema/schema.graphql",
     "start": "serve dist"
   }
 }
