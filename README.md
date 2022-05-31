@@ -32,6 +32,24 @@ Website built with React, Relay and GraphQL
 ### Project architecture
 [wip]
 
+### Getting Started
+- clone this repo
+```sh
+# install dependencies
+yarn
+# or
+yarn install
+
+# copy .env file
+cp .env.example .env
+
+# start project
+yarn dev
+
+# see on localhost link
+http://localhost:8000
+```
+
 ## to-do
 - https://github.com/biantris/graphql-relay-web/projects/1?add_cards_query=is%3Aopen
 
