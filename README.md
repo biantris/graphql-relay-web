@@ -51,8 +51,8 @@ http://localhost:8000
 ```
 
 ## to-do
-- https://github.com/biantris/graphql-relay-web/projects/1?add_cards_query=is%3Aopen
-
+- https://github.com/biantris/graphql-relay-web/projects/1
+ 
 ## demo
 [wip]
 
