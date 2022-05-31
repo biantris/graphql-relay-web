@@ -7,28 +7,26 @@ import Toolbar from '@mui/material/Toolbar';
 import { Text } from 'rebass';
 
 import { graphql, useLazyLoadQuery } from 'relay-hooks';
+
 import EventHome from './EventHome';
 
-import { EventHomeQuery } from './__generated__/EventHomeQuery.graphql';
+import { RootQuery } from './__generated__/RootQuery.graphql';
 
 type Props = {
   children: React.ReactNode;
-  query: {
-    rootQuery: unknown;
-  };
-  
 };
-const Root = ({ children, query }: Props) => {
-  const data = useLazyLoadQuery<EventHomeQuery>(
+const Root = ({ children }: Props) => {
+  const data = useLazyLoadQuery<RootQuery>(
     graphql`
       query RootQuery {
-        ...EventHome
+        ...EventHome_query
       }
     `,
-    query.rootQuery,
+    {},
+    {
+      fetchPolicy: 'store-or-network'
+    },
   )
-
-  const { events } = data;
 
   return (
     <>
@@ -38,7 +36,7 @@ const Root = ({ children, query }: Props) => {
           <Text flexGrow={1}>GraphQL Relay Web</Text>
         </Toolbar>
       </AppBar>
-      <EventHome query={query}/>
+      <EventHome data={data}/>
       <Suspense fallback={'Loading children...'}>{children}</Suspense>
     </>
   );

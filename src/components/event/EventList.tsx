@@ -13,7 +13,7 @@ import { EventListPaginationQuery } from './__generated__/EventListPaginationQue
 type Props = {
   query: EventList_query$key;
 };
-const FeedList = (props: Props) => {
+const EventList = (props: Props) => {
   const { data, loadNext, isLoadingNext } = usePaginationFragment<EventListPaginationQuery>(
     graphql`
       fragment EventList_query on Query
@@ -73,4 +73,4 @@ const FeedList = (props: Props) => {
   );
 };
 
-export default FeedList;
+export default EventList;

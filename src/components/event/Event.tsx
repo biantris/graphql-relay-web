@@ -2,7 +2,6 @@ import React from "react";
 
 import { useFragment, graphql } from "react-relay";
 import styled from "styled-components";
-
 import { Event_event$key } from "./__generated__/Event_event.graphql";
 
 type Props = {
