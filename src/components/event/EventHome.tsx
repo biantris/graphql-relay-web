@@ -1,22 +1,18 @@
-import React from 'react'
+import React from "react";
 
-import { graphql } from 'react-relay';
+import { graphql } from "react-relay";
 
-import { useFragment } from 'relay-hooks';
+import { useFragment, useLazyLoadQuery } from "relay-hooks";
 
-import styled from 'styled-components'
+import styled from "styled-components";
 
-import EventList from './EventList';
+import EventList from "./EventList";
 
-import { EventHomeQuery } from './__generated__/EventHomeQuery.graphql';
-
-type Props = {
-  query: EventHome_query$key;
-};
+import { EventHomeQuery } from "./__generated__/EventHomeQuery.graphql";
 
 const Content = styled.div`
   margin: 0px auto;
-`
+`;
 const Home = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
@@ -25,25 +21,36 @@ const Home = styled.div`
   justify-content: center;
   align-content: center;
   place-items: center;
-`
+`;
 
-const EventHome = (props: Props) => {
+const EventHome = () => {
+  const response = useLazyLoadQuery(
+    graphql`
+      query EventHomeQuery {
+        ...EventList_query
+      }
+    `,
+    {},
+    {
+      fetchPolicy: "store-or-network",
+    }
+  );
+
   const query = useFragment<EventHomeQuery>(
     graphql`
       fragment EventHome_query on Query {
         ...EventList_query
       }
     `,
-    props.query
+    response
   );
 
   return (
     <Content>
       <Home>
-        <EventList query={query}/>
+        <EventList query={query} />
       </Home>
     </Content>
-  )
-  
-}
-export default EventHome
+  );
+};
+export default EventHome;
