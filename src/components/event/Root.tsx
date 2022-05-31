@@ -1,25 +1,24 @@
-import React, { Suspense } from 'react';
+import React, { Suspense } from "react";
 
-import CssBaseline from '@mui/material/CssBaseline';
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
+import CssBaseline from "@mui/material/CssBaseline";
+import AppBar from "@mui/material/AppBar";
+import Toolbar from "@mui/material/Toolbar";
 
-import { Text } from 'rebass';
+import { Text } from "rebass";
+import { Outlet } from "react-router-dom";
 
-type Props = {
-  children: React.ReactNode;
-};
-const Root = ({ children }: Props) => {
-
+const Root = () => {
   return (
     <>
       <CssBaseline />
-      <AppBar position='static' color='primary'>
+      <AppBar position="static" color="primary">
         <Toolbar>
           <Text flexGrow={1}>GraphQL Relay Web</Text>
         </Toolbar>
       </AppBar>
-      <Suspense fallback={'Loading children...'}>{children}</Suspense>
+      <Suspense fallback={"Loading children..."}>
+        <Outlet />
+      </Suspense>
     </>
   );
 };

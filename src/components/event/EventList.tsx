@@ -10,6 +10,8 @@ import { EventList_query$key } from './__generated__/EventList_query.graphql';
 import { graphql, usePaginationFragment } from 'relay-hooks';
 import { EventListPaginationQuery } from './__generated__/EventListPaginationQuery.graphql';
 
+import Event from './Event';
+
 type Props = {
   query: EventList_query$key;
 };

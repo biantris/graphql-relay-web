@@ -27,7 +27,7 @@ const EventHome = () => {
   const response = useLazyLoadQuery(
     graphql`
       query EventHomeQuery {
-        ...EventList_query
+        ...EventHome_query
       }
     `,
     {},
@@ -42,7 +42,7 @@ const EventHome = () => {
         ...EventList_query
       }
     `,
-    response
+    response.data
   );
 
   return (
