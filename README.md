@@ -53,5 +53,8 @@ http://localhost:8000
 ## to-do
 - https://github.com/biantris/graphql-relay-web/projects/1?add_cards_query=is%3Aopen
 
+## demo
+[wip]
+
 ## contributions
 Feel free to contribute to this project, if you find any bugs or improvements, open an issue and send a PR about it \o/
