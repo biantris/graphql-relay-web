@@ -11,11 +11,11 @@ import EventList from "./EventList";
 import { EventHomeQuery } from "./__generated__/EventHomeQuery.graphql";
 
 const Content = styled.div`
-  margin: 0px auto;
+  margin: 20px;
 `;
 const Home = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-template-columns: auto;
   gap: 20px;
   width: 100%;
   justify-content: center;

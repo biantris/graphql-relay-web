@@ -13,12 +13,11 @@ const EventItem = styled.div`
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  width: 100%;
+  margin: 10px;
 `;
 const Events = styled.div`
   display: flex;
   flex-direction: column;
-  width: 90%;
   padding: 15px;
 `;
 
@@ -46,16 +45,19 @@ const Event = (props: Props) => {
     props.event
   );
 
+  const start = new Date(event.start).toISOString().substring(0, 10); // @TODO: add format to hours
+  const end = new Date(event.end).toISOString().substring(0, 10);
+
   return (
     <EventItem>
       <Events>
-        <Title>{event.name}</Title>
+        <Title>Event name: {event.name}</Title>
         <Paragraph>
-          {event.start}
+          <b>Start date: </b>{start}
           <br />
-          {event.end}
+          <b>End date: </b>{end}
           <br />
-          {event.allDay ? "All Day" : "Not All Day"}
+          <b>All day: </b>{event.allDay ? "All day" : "Not all day"}
         </Paragraph>
       </Events>
     </EventItem>
