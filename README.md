@@ -22,6 +22,8 @@ Website built with React, Relay and GraphQL
 
 > **_NOTE:_** See Back-end project [koa-server](https://github.com/biantris/koa-server)
 
+- [ ] React
+- [ ] Storybook
 - [x] Relay
 - [ ] Relay hooks
 - [ ] Jest
