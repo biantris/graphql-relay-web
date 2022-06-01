@@ -26,8 +26,8 @@ Website built with React, Relay and GraphQL
 - [ ] Storybook
 - [x] Relay
 - [x] Relay hooks
-- [ ] Jest
-- [ ] Testing Library
+- [x] Jest
+- [x] Testing Library
 
 ### Project architecture
 [wip]
