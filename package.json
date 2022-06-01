@@ -60,6 +60,7 @@
     "dotenv-webpack": "^7.1.0",
     "graphql": "^15.0.0",
     "html-webpack-plugin": "^4.0.0",
+    "jest": "^28.1.0",
     "relay-compiler": "^11.0.2",
     "relay-compiler-language-typescript": "^12.0.1",
     "relay-config": "^11.0.2",
@@ -71,10 +72,10 @@
     "webpack-dev-server": "^3.10.1"
   },
   "scripts": {
+    "jest": "jest",
     "dev": "cross-env NODE_ENV=development webpack-dev-server",
     "build": "cross-env NODE_ENV=production webpack",
     "relay": "relay-compiler --src ./src --schema ./schema/schema.graphql",
-    "start": "serve dist",
-    "jest": "jest"
+    "start": "serve dist"
   }
 }
