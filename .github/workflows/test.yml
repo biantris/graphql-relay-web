@@ -19,5 +19,4 @@ jobs:
         with:
           node-version: '16'
       - run: yarn
-      - run: yarn all:relay
       - run: yarn jest
