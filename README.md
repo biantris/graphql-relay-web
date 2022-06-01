@@ -33,7 +33,8 @@ Website built with React, Relay and GraphQL
 [wip]
 
 ### Getting Started
-- clone this repo
+- Set up the [server repository](https://github.com/biantris/koa-server) (note: it needs to be running together with the frontend) 
+- Clone this repo
 ```sh
 # install dependencies
 yarn
@@ -55,6 +56,7 @@ http://localhost:8000
  
 ## demo
 [wip]
+![image](https://user-images.githubusercontent.com/65451957/171497047-c1cc80ae-1336-473b-9795-aa436c0e8eee.png)
 
 ## contributions
 Feel free to contribute to this project, if you find any bugs or improvements, open an issue and send a PR about it \o/
