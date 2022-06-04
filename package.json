@@ -56,7 +56,7 @@
     "@types/styled-components": "^5.1.25",
     "babel-loader": "^8.0.6",
     "babel-plugin-relay": "^13.2.0",
-    "cross-env": "^6.0.3",
+    "cross-env": "^7.0.3",
     "dotenv-webpack": "^7.1.0",
     "graphql": "^16.5.0",
     "html-webpack-plugin": "^4.0.0",
