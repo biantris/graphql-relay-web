@@ -56,7 +56,7 @@ http://localhost:8000
  
 ## demo
 [wip]
-![image](https://user-images.githubusercontent.com/65451957/171497047-c1cc80ae-1336-473b-9795-aa436c0e8eee.png)
+![image](https://user-images.githubusercontent.com/65451957/172068496-9fee36c3-a423-4653-bd80-e13395529adc.png)
 
 ## contributions
 Feel free to contribute to this project, if you find any bugs or improvements, open an issue and send a PR about it \o/
