@@ -1,35 +1,19 @@
 import React from "react";
 
 import { useFragment, graphql } from "react-relay";
-import styled from "styled-components";
+
+import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import Box from "@mui/material/Box";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+
 import { Event_event$key } from "./__generated__/Event_event.graphql";
 
 type Props = {
   event: Event_event$key;
 };
-
-const EventItem = styled.div`
-  background: #f7f7f3;
-  display: flex;
-  flex-direction: column;
-  border-radius: 20px;
-  margin: 10px;
-`;
-const Events = styled.div`
-  display: flex;
-  flex-direction: column;
-  padding: 15px;
-`;
-
-const Title = styled.h2`
-  color: #000000;
-  margin-bottom: 10px;
-`;
-
-const Paragraph = styled.div`
-  color: #161b33;
-  font-size: 0.8rem;
-`;
 
 const Event = (props: Props) => {
   const event = useFragment<Event_event$key>(
@@ -49,18 +33,45 @@ const Event = (props: Props) => {
   const end = new Date(event.end).toISOString().substring(0, 10);
 
   return (
-    <EventItem>
-      <Events>
-        <Title>Event name: {event.name}</Title>
-        <Paragraph>
-          <b>Start date: </b>{start}
-          <br />
-          <b>End date: </b>{end}
-          <br />
-          <b>All day: </b>{event.allDay ? "All day" : "Not all day"}
-        </Paragraph>
-      </Events>
-    </EventItem>
+    <>
+      <Box p={1}>
+        <Card variant="outlined" sx={{ display: "flex", width: "500px" }}>
+          <Box p={1} sx={{ display: "flex", flexDirection: "column" }}>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                <Box sx={{ color: "primary.main" }}>
+                  Event Name: {event.name}
+                </Box>
+                {/* <Box sx={{ color: "text.primary" }}>{event.name}</Box> */}
+              </Typography>
+              <Typography variant="body2" color="text.primary">
+                Start date:
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                {start}
+              </Typography>
+              <Typography variant="body2" color="text.primary">
+                End date:
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                {end}
+              </Typography>
+              <Typography variant="body2" color="text.primary">
+                All day: {event.allDay ? "All day" : "Not all day"}
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button size="small" variant="outlined">
+                Edit
+              </Button>
+              <Button size="small" variant="outlined" color="error">
+                Remove
+              </Button>
+            </CardActions>
+          </Box>
+        </Card>
+      </Box>
+    </>
   );
 };
 export default Event;

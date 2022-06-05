@@ -4,24 +4,11 @@ import { graphql } from "react-relay";
 
 import { useFragment, useLazyLoadQuery } from "relay-hooks";
 
-import styled from "styled-components";
+import Box from "@mui/material/Box";
 
 import EventList from "./EventList";
 
 import { EventHomeQuery } from "./__generated__/EventHomeQuery.graphql";
-
-const Content = styled.div`
-  margin: 20px;
-`;
-const Home = styled.div`
-  display: grid;
-  grid-template-columns: auto;
-  gap: 20px;
-  width: 100%;
-  justify-content: center;
-  align-content: center;
-  place-items: center;
-`;
 
 const EventHome = () => {
   const response = useLazyLoadQuery(
@@ -46,11 +33,10 @@ const EventHome = () => {
   );
 
   return (
-    <Content>
-      <Home>
-        <EventList query={query} />
-      </Home>
-    </Content>
+    <Box p={1}>
+      <EventList query={query} />
+    </Box>
   );
 };
+
 export default EventHome;
