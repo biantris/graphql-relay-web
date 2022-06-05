@@ -12,6 +12,11 @@ import { EventListPaginationQuery } from './__generated__/EventListPaginationQue
 
 import Event from './Event';
 
+import Grid from "@mui/material/Grid";
+import Box from "@mui/material/Box";
+
+import Container from "@mui/material/Container";
+
 type Props = {
   query: EventList_query$key;
 };
@@ -61,17 +66,27 @@ const EventList = (props: Props) => {
   const { pageInfo } = events;
 
   return (
-    <InfiniteScroll
-      pageStart={0}
-      loadMore={loadMore}
-      hasMore={pageInfo.hasNextPage}
-      loader={infiniteScrollerLoader}
-      useWindow
-    >
-      {data.events.edges.map(({ node }) => (
-        <Event key={node.id} event={node}/>
-      ))}
-    </InfiniteScroll>
+    <Box p={3}>
+      <Container maxWidth="sm">
+        <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+          <InfiniteScroll
+            pageStart={0}
+            loadMore={loadMore}
+            hasMore={pageInfo.hasNextPage}
+            loader={infiniteScrollerLoader}
+            useWindow= {false}
+          >
+            {data.events.edges.map(({ node }) => (
+            <Grid item xs={2} sm={4} md={4} key={node.id}>
+              <Box sx={{ minWidth: 300 }}>
+              <Event key={node.id} event={node}/>
+              </Box>
+            </Grid>
+            ))}
+          </InfiniteScroll>
+        </Grid>
+      </Container>
+    </Box>
   );
 };
 
