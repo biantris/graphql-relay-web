@@ -64,7 +64,7 @@
     "relay-compiler": "^11.0.2",
     "relay-compiler-language-typescript": "^15.0.1",
     "relay-config": "^11.0.2",
-    "serve": "^11.3.0",
+    "serve": "^13.0.2",
     "terser-webpack-plugin": "^2.3.2",
     "typescript": "^3.7.4",
     "webpack": "^4.41.5",
