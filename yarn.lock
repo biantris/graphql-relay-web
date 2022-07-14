@@ -8052,14 +8052,23 @@ relay-runtime@13.2.0, relay-runtime@^13.2.0:
     fbjs "^3.0.2"
     invariant "^2.2.4"
 
-relay-test-utils-internal@^13.2.0:
-  version "13.2.0"
-  resolved "https://registry.yarnpkg.com/relay-test-utils-internal/-/relay-test-utils-internal-13.2.0.tgz#6d7f1d950b118d165e9dae4ed5a56daf9a0a06a5"
-  integrity sha512-eVv1L7tri2PJflQGkoMbYlXrtL7RgdJlJkuhPMAvlkLU9RMWICcn/ga+5j0tLU8iXYyLN0prv3uIwKFoX3UWDQ==
+relay-runtime@14.0.0:
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/relay-runtime/-/relay-runtime-14.0.0.tgz#e2fa40d73569d2ba5810c773fb85ac872b08b5d0"
+  integrity sha512-Rnf6EgCl3QY85il/gTEh6GHAR9hoRkjYWgMR2Y3Afugb8qLR0vL6m/GBYqol8W3L8B+XqZ2U04/g624DRpEqAw==
   dependencies:
     "@babel/runtime" "^7.0.0"
     fbjs "^3.0.2"
-    relay-runtime "13.2.0"
+    invariant "^2.2.4"
+
+relay-test-utils-internal@^14.0.0:
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/relay-test-utils-internal/-/relay-test-utils-internal-14.0.0.tgz#8ce6841b7e63ebedb725fb6f87aff65a79c90416"
+  integrity sha512-5WCMEVgtDpQGcN2+UQ/QYJ2LqRl1t3yyUuhBpW0UBJfJhXajbWy2Rpyke8TvKqg0coIzb2Jv3svuiWm7xCIBpA==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    fbjs "^3.0.2"
+    relay-runtime "14.0.0"
 
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
