@@ -55,7 +55,7 @@
     "@types/relay-runtime": "^13.0.3",
     "@types/styled-components": "^5.1.25",
     "babel-loader": "^8.0.6",
-    "babel-plugin-relay": "^13.2.0",
+    "babel-plugin-relay": "^14.1.0",
     "cross-env": "^7.0.3",
     "dotenv-webpack": "^8.0.0",
     "graphql": "^16.5.0",
