@@ -53,7 +53,7 @@
     "@types/react-relay": "^13.0.2",
     "@types/rebass": "^4.0.10",
     "@types/relay-runtime": "^13.0.3",
-    "@types/styled-components": "^5.1.25",
+    "@types/styled-components": "^5.1.26",
     "babel-loader": "^8.0.6",
     "babel-plugin-relay": "^14.1.0",
     "cross-env": "^7.0.3",
