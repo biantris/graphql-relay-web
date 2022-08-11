@@ -20,7 +20,8 @@ Website built with React, Relay and GraphQL
 
 <p align="center">🚧 WIP 🚧</p>
 
-> **_NOTE:_** See Back-end project [koa-server](https://github.com/biantris/koa-server)
+> **Note** 
+> See Back-end project [koa-server](https://github.com/biantris/koa-server)
 
 - [x] React
 - [ ] Storybook
