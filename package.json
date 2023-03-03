@@ -7,7 +7,7 @@
     "@emotion/styled": "^11.10.6",
     "@material-ui/core": "5.0.0-alpha.34",
     "@material-ui/styles": "^4.11.5",
-    "@mui/icons-material": "^5.11.9",
+    "@mui/icons-material": "^5.11.11",
     "@mui/material": "^5.11.11",
     "@mui/styles": "^5.11.9",
     "@types/react-infinite-scroller": "^1.2.3",
