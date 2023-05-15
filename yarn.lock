@@ -1924,10 +1924,10 @@
   resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.6.1.tgz#3a3a408481a3796f45223a549c2571517bc8af2d"
   integrity sha512-YUkWj+xs0oOzBe74OgErsuR3wVn+efrFhXBWrit50kOiED+pvQe2r6MWY0iJMQU/mSVKxvNzL4ZaYvjdX+G7ZA==
 
-"@restart/hooks@^0.3.1":
-  version "0.3.27"
-  resolved "https://registry.yarnpkg.com/@restart/hooks/-/hooks-0.3.27.tgz#91f356d66d4699a8cd8b3d008402708b6a9dc505"
-  integrity sha512-s984xV/EapUIfkjlf8wz9weP2O9TNKR96C68FfMEy2bE69+H4cNv3RD4Mf97lW7Htt7PjZrYTjSC8f3SB9VCXw==
+"@restart/hooks@^0.4.9":
+  version "0.4.9"
+  resolved "https://registry.yarnpkg.com/@restart/hooks/-/hooks-0.4.9.tgz#ad858fb39d99e252cccce19416adc18fc3f18fcb"
+  integrity sha512-3BekqcwB6Umeya+16XPooARn4qEPW6vNvwYnlofIYe6h9qG1/VeD7UvShCWx11eFz5ELYmwIEshz+MkPX3wjcQ==
   dependencies:
     dequal "^2.0.2"
 
@@ -4026,7 +4026,7 @@ fbjs-css-vars@^1.0.0:
   resolved "https://registry.yarnpkg.com/fbjs-css-vars/-/fbjs-css-vars-1.0.2.tgz#216551136ae02fe255932c3ec8775f18e2c078b8"
   integrity sha512-b2XGFAFdWZWg0phtAWLHCk836A1Xann+I+Dgd3Gk64MHKZO44FfoD1KxyvbSh0qZsIoXQGGlVztIY+oitJPpRQ==
 
-fbjs@^3.0.0, fbjs@^3.0.2:
+fbjs@^3.0.2:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-3.0.4.tgz#e1871c6bd3083bac71ff2da868ad5067d37716c6"
   integrity sha512-ucV0tDODnGV3JCnnkmoszb5lf4bNpzjv80K41wd4k798Etq+UYD0y0TIfalLjZoKgjive6/adkRnszwapiDgBQ==
@@ -6116,13 +6116,13 @@ relay-config@^12.0.1:
   dependencies:
     cosmiconfig "^5.0.5"
 
-relay-hooks@^7.2.1:
-  version "7.2.1"
-  resolved "https://registry.yarnpkg.com/relay-hooks/-/relay-hooks-7.2.1.tgz#c9a9e9ec49ab1374a044b30524245ebe7275e443"
-  integrity sha512-PQgiN7u0Yif0yVZ393S+qV4J8rYKOn/rdCdElMEp2RCfUcj7LdCrBQYgX0b0do9i1cNPWVWpbxPZ7kBUGODNCA==
+relay-hooks@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/relay-hooks/-/relay-hooks-8.0.0.tgz#06758db91d6c9e4f7623352c542b5a5dfc3c0a96"
+  integrity sha512-fvTzmSt8cxwsAQWCbE/ubXLqNeJq3kMVpvXI2HKYq8bylT1jhSUkEjBVO1N+P0lDTyVxw4be+HZPIR9v8XnKYA==
   dependencies:
-    "@restart/hooks" "^0.3.1"
-    fbjs "^3.0.0"
+    "@restart/hooks" "^0.4.9"
+    fbjs "^3.0.2"
 
 relay-runtime@15.0.0:
   version "15.0.0"
