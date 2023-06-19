@@ -52,7 +52,7 @@
     "@types/react-dom": "^18.2.5",
     "@types/react-relay": "^14.1.4",
     "@types/rebass": "^4.0.10",
-    "@types/relay-runtime": "^14.1.10",
+    "@types/relay-runtime": "^14.1.11",
     "@types/styled-components": "^5.1.26",
     "babel-loader": "^9.1.2",
     "babel-plugin-relay": "^15.0.0",
