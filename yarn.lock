@@ -6456,10 +6456,10 @@ relay-config@^12.0.1:
   dependencies:
     cosmiconfig "^5.0.5"
 
-relay-hooks@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/relay-hooks/-/relay-hooks-8.0.0.tgz#06758db91d6c9e4f7623352c542b5a5dfc3c0a96"
-  integrity sha512-fvTzmSt8cxwsAQWCbE/ubXLqNeJq3kMVpvXI2HKYq8bylT1jhSUkEjBVO1N+P0lDTyVxw4be+HZPIR9v8XnKYA==
+relay-hooks@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/relay-hooks/-/relay-hooks-8.0.1.tgz#f87bd7084c44e1e8c8772ac39c2793a53e7e6474"
+  integrity sha512-RajMEtvoWRIUVtf+v4HqAOkKwOaOaV6hJCw8LjXyHiWFE/ZuNaljA69Ma9womiHHPZBjLvLuwvBt/ylbojYdcQ==
   dependencies:
     "@restart/hooks" "^0.4.9"
     fbjs "^3.0.2"
