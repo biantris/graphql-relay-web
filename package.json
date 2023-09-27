@@ -51,7 +51,7 @@
     "@types/react": "^18.2.22",
     "@types/react-dom": "^18.2.8",
     "@types/react-relay": "^14.1.5",
-    "@types/rebass": "^4.0.10",
+    "@types/rebass": "^4.0.11",
     "@types/relay-runtime": "^14.1.13",
     "@types/styled-components": "^5.1.28",
     "babel-loader": "^9.1.3",
