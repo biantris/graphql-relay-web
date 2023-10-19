@@ -50,7 +50,7 @@
     "@types/node": "^20.8.6",
     "@types/react": "^18.2.28",
     "@types/react-dom": "^18.2.13",
-    "@types/react-relay": "^14.1.6",
+    "@types/react-relay": "^14.1.7",
     "@types/rebass": "^4.0.11",
     "@types/relay-runtime": "^14.1.14",
     "@types/styled-components": "^5.1.28",
