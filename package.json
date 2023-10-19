@@ -10,7 +10,7 @@
     "@mui/icons-material": "^5.14.14",
     "@mui/material": "^5.14.14",
     "@mui/styles": "^5.14.14",
-    "@types/react-infinite-scroller": "^1.2.3",
+    "@types/react-infinite-scroller": "^1.2.4",
     "@types/react-router-dom": "^5.3.3",
     "babel-jest": "^29.7.0",
     "isomorphic-fetch": "^3.0.0",
