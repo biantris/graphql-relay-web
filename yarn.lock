@@ -6421,15 +6421,6 @@ relay-hooks@^8.0.1:
     "@restart/hooks" "^0.4.9"
     fbjs "^3.0.2"
 
-relay-runtime@15.0.0, relay-runtime@^15.0.0:
-  version "15.0.0"
-  resolved "https://registry.yarnpkg.com/relay-runtime/-/relay-runtime-15.0.0.tgz#e83315ea23925fae8f3317f0091f28924441576f"
-  integrity sha512-7AXkXLQo6gpJNBhk4Kii5b+Yat62HSDD1TgJBi021iSjT1muI8iYd4UZG4f/If209LmaVjkZt2HTNAlk6xtslw==
-  dependencies:
-    "@babel/runtime" "^7.0.0"
-    fbjs "^3.0.2"
-    invariant "^2.2.4"
-
 relay-runtime@16.0.0:
   version "16.0.0"
   resolved "https://registry.yarnpkg.com/relay-runtime/-/relay-runtime-16.0.0.tgz#66efc4ea95a291885dab04f90676ab4c004442ea"
@@ -6439,14 +6430,23 @@ relay-runtime@16.0.0:
     fbjs "^3.0.2"
     invariant "^2.2.4"
 
-relay-test-utils-internal@^15.0.0:
+relay-runtime@^15.0.0:
   version "15.0.0"
-  resolved "https://registry.yarnpkg.com/relay-test-utils-internal/-/relay-test-utils-internal-15.0.0.tgz#a7aee41bf786d28c75cc228b991c553eca3bfc18"
-  integrity sha512-NKrRv9Oa+eXLzpCyiIikRqCQ0eXqHpIJ/Jq2/cvJxg/oxgiC03kFISl497oPkidsBdKvMg9xkDNwbpFad+rJjw==
+  resolved "https://registry.yarnpkg.com/relay-runtime/-/relay-runtime-15.0.0.tgz#e83315ea23925fae8f3317f0091f28924441576f"
+  integrity sha512-7AXkXLQo6gpJNBhk4Kii5b+Yat62HSDD1TgJBi021iSjT1muI8iYd4UZG4f/If209LmaVjkZt2HTNAlk6xtslw==
   dependencies:
     "@babel/runtime" "^7.0.0"
     fbjs "^3.0.2"
-    relay-runtime "15.0.0"
+    invariant "^2.2.4"
+
+relay-test-utils-internal@^16.0.0:
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/relay-test-utils-internal/-/relay-test-utils-internal-16.0.0.tgz#52cdb4fb0e14055d69b2e813f65052af301fc1b9"
+  integrity sha512-trkNbAQ2xjteXTNETY5gLIvgPyGpvX1d2nadV9C4OP9r0cfgHxhZkBQgUAL2vidwWFJH7TU839ZYA5ciC8VQlg==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    fbjs "^3.0.2"
+    relay-runtime "16.0.0"
 
 renderkid@^3.0.0:
   version "3.0.0"

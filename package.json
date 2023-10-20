@@ -26,7 +26,7 @@
     "rebass": "^4.0.7",
     "relay-hooks": "^8.0.1",
     "relay-runtime": "^15.0.0",
-    "relay-test-utils-internal": "^15.0.0",
+    "relay-test-utils-internal": "^16.0.0",
     "styled-components": "^6.1.0"
   },
   "devDependencies": {
