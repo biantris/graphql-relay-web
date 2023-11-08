@@ -6413,10 +6413,10 @@ relay-config@^12.0.1:
   dependencies:
     cosmiconfig "^5.0.5"
 
-relay-hooks@^8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/relay-hooks/-/relay-hooks-8.0.1.tgz#f87bd7084c44e1e8c8772ac39c2793a53e7e6474"
-  integrity sha512-RajMEtvoWRIUVtf+v4HqAOkKwOaOaV6hJCw8LjXyHiWFE/ZuNaljA69Ma9womiHHPZBjLvLuwvBt/ylbojYdcQ==
+relay-hooks@^8.0.2:
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/relay-hooks/-/relay-hooks-8.0.2.tgz#d6e8bad3420428a6e163667bd402cb674d2c2fa3"
+  integrity sha512-/zecG9eOSR1uVuFQ2cSSFj8lIx8DMpLsbPW4VJutiZCr/pqNV+x6csJJypodqSoPMzbwyUfYWco3RXsXKm74ag==
   dependencies:
     "@restart/hooks" "^0.4.9"
     fbjs "^3.0.2"

@@ -24,7 +24,7 @@
     "react-relay": "^16.0.0",
     "react-router-dom": "^6.18.0",
     "rebass": "^4.0.7",
-    "relay-hooks": "^8.0.1",
+    "relay-hooks": "^8.0.2",
     "relay-runtime": "^15.0.0",
     "relay-test-utils-internal": "^16.0.0",
     "styled-components": "^6.1.1"
