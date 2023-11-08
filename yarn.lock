@@ -2609,10 +2609,10 @@
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
-"@types/rebass@^4.0.12":
-  version "4.0.12"
-  resolved "https://registry.yarnpkg.com/@types/rebass/-/rebass-4.0.12.tgz#cc520e54c91166836e8368a91217838e73df18d4"
-  integrity sha512-uATzdS4A7MwUNIlFvmAYD8/YaLYfqKumRL6B4Ufwf91DYilcQZj+poohsAn7R/3ALgj1fb3Fi8TMUxhXUIILgg==
+"@types/rebass@^4.0.13":
+  version "4.0.13"
+  resolved "https://registry.yarnpkg.com/@types/rebass/-/rebass-4.0.13.tgz#3d8bb03a809203a789e4e39c6bcdf8910e741245"
+  integrity sha512-1uYoH5QONnCfJzWIBmcThtleciTTAixFHyPlwvszsqdsAecX0ZaGgclvtqho0Lhknt1TJYAL9raYhhLKvVK81w==
   dependencies:
     "@types/react" "*"
     "@types/styled-components" "*"
