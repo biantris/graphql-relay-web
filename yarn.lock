@@ -2530,10 +2530,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-relay@^16.0.2":
-  version "16.0.2"
-  resolved "https://registry.yarnpkg.com/@types/react-relay/-/react-relay-16.0.2.tgz#5c66d80d58e434661a47d85e58e079621c6e0a9a"
-  integrity sha512-x8F40+YwQD6M0fPJbCBXfnv05tbJVyo1Ulzhv4aGjgDKi5TJlU4w9y+myFB9mg1e8hMuLCsonOhHUdRUqaquFg==
+"@types/react-relay@^16.0.3":
+  version "16.0.3"
+  resolved "https://registry.yarnpkg.com/@types/react-relay/-/react-relay-16.0.3.tgz#66a467f5bd8ae35c87ebf91d63a67713664e372f"
+  integrity sha512-wcJUDRg9kLKJT4YjQ0h6xQnkFGycNvxyICVu58/aCfPP2kcm5NuRvSlaz+14qXS34P9+3hpJKFRxjrhsGoCNhQ==
   dependencies:
     "@types/react" "*"
     "@types/relay-runtime" "*"
