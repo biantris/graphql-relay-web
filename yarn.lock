@@ -1259,7 +1259,7 @@
   resolved "https://registry.yarnpkg.com/@babel/regjsgen/-/regjsgen-0.8.0.tgz#f0ba69b075e1f05fb2825b7fad991e7adbb18310"
   integrity sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA==
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.12.5", "@babel/runtime@^7.18.3", "@babel/runtime@^7.23.8", "@babel/runtime@^7.23.9", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.3", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.12.5", "@babel/runtime@^7.18.3", "@babel/runtime@^7.23.9", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.3", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
   version "7.23.9"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.23.9.tgz#47791a15e4603bb5f905bc0753801cf21d6345f7"
   integrity sha512-0CX6F+BI2s9dkUqr08KFrAIZgNFj75rdBU/DjCyYLIaV/quFjkk6T+EJ2LkZHyZTbEV4L5p97mNkUsHl2wLFAw==
@@ -1990,12 +1990,12 @@
   resolved "https://registry.yarnpkg.com/@mui/core-downloads-tracker/-/core-downloads-tracker-5.15.7.tgz#78a0e98ecbd84906bf7339f780e8f41c5d505754"
   integrity sha512-AuF+Wo2Mp/edaO6vJnWjg+gj4tzEz5ChMZnAQpc22DXpSvM8ddgGcZvM7D7F99pIBoSv8ub+Iz0viL+yuGVmhg==
 
-"@mui/icons-material@^5.15.6":
-  version "5.15.6"
-  resolved "https://registry.yarnpkg.com/@mui/icons-material/-/icons-material-5.15.6.tgz#6958232bef48972fcbafd5f69e6079a9be5951f1"
-  integrity sha512-GnkxMtlhs+8ieHLmCytg00ew0vMOiXGFCw8Ra9nxMsBjBqnrOI5gmXqUm+sGggeEU/HG8HyeqC1MX/IxOBJHzA==
+"@mui/icons-material@^5.15.7":
+  version "5.15.7"
+  resolved "https://registry.yarnpkg.com/@mui/icons-material/-/icons-material-5.15.7.tgz#6b1cc370894f505b756fa1aa1cbd25b5890d54d5"
+  integrity sha512-EDAc8TVJGIA/imAvR3u4nANl2W5h3QeHieu2gK7Ypez/nIA55p08tHjf8UrMXEpxCAvfZO6piY9S9uaxETdicA==
   dependencies:
-    "@babel/runtime" "^7.23.8"
+    "@babel/runtime" "^7.23.9"
 
 "@mui/material@^5.15.7":
   version "5.15.7"
