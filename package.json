@@ -49,7 +49,7 @@
     "@types/dotenv-webpack": "^7.0.7",
     "@types/node": "^20.11.24",
     "@types/react": "^18.2.63",
-    "@types/react-dom": "^18.2.19",
+    "@types/react-dom": "^18.2.20",
     "@types/react-relay": "^16.0.6",
     "@types/rebass": "^4.0.14",
     "@types/relay-runtime": "^14.1.23",
