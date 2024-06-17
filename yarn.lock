@@ -6193,16 +6193,16 @@ react-is@^18.0.0, react-is@^18.2.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
 
-react-relay@^16.2.0:
-  version "16.2.0"
-  resolved "https://registry.yarnpkg.com/react-relay/-/react-relay-16.2.0.tgz#ce74e771ee925c03a62491f3cb8268b4d5d82514"
-  integrity sha512-f/HtC4whyYmK6/WUeOVakXRoBkV+JEgoSeBHXfIC2U6AuH14NrKXnFicX65LksfzgD1OUfYF6IqGQ4MvO52lTQ==
+react-relay@^17.0.0:
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/react-relay/-/react-relay-17.0.0.tgz#1f8b6aefaa73b8af8378300d419289a57a6f94c9"
+  integrity sha512-Kn0CMiKZtWc+EisFPmzuZ53RtDeLlJO+EUVJwqxNkOs5g1jDjVi1v+k48kHeTyim2X43Rr0S2aeailllci5SgQ==
   dependencies:
     "@babel/runtime" "^7.0.0"
     fbjs "^3.0.2"
     invariant "^2.2.4"
     nullthrows "^1.1.1"
-    relay-runtime "16.2.0"
+    relay-runtime "17.0.0"
 
 react-router-dom@^6.23.1:
   version "6.23.1"
@@ -6428,6 +6428,15 @@ relay-runtime@16.2.0, relay-runtime@^16.2.0:
   version "16.2.0"
   resolved "https://registry.yarnpkg.com/relay-runtime/-/relay-runtime-16.2.0.tgz#1126b67749b89f6d4855ebd7e5749033fab5b97f"
   integrity sha512-SrIyYItH1EZUj37NI8nZALasuq7mNyFrrSNgMefhgxNZxTVnr1KCp43LaxUfZqhsWbw4Y00JSGDRQXlcv4STHQ==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    fbjs "^3.0.2"
+    invariant "^2.2.4"
+
+relay-runtime@17.0.0:
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/relay-runtime/-/relay-runtime-17.0.0.tgz#771084ea3b44f2f1eb578da861511a5558c4e07b"
+  integrity sha512-7b2R3G3DP7VHq7/1ltwQfYn3KkTHIB2NNt3KijIZoNQ73avwpOXBEL0MelSXwq8L+K8lcgAW5VAT7o0LUhnJPQ==
   dependencies:
     "@babel/runtime" "^7.0.0"
     fbjs "^3.0.2"
