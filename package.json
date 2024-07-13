@@ -9,7 +9,7 @@
     "@material-ui/styles": "^4.11.5",
     "@mui/icons-material": "^5.16.1",
     "@mui/material": "^5.15.21",
-    "@mui/styles": "^5.15.21",
+    "@mui/styles": "^5.16.1",
     "@types/react-infinite-scroller": "^1.2.5",
     "@types/react-router-dom": "^5.3.3",
     "babel-jest": "^29.7.0",
