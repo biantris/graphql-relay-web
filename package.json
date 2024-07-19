@@ -8,7 +8,7 @@
     "@material-ui/core": "5.0.0-alpha.34",
     "@material-ui/styles": "^4.11.5",
     "@mui/icons-material": "^5.16.1",
-    "@mui/material": "^5.16.1",
+    "@mui/material": "^5.16.4",
     "@mui/styles": "^5.16.4",
     "@types/react-infinite-scroller": "^1.2.5",
     "@types/react-router-dom": "^5.3.3",
