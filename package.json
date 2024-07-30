@@ -39,7 +39,7 @@
     "@babel/plugin-proposal-object-rest-spread": "7.20.7",
     "@babel/plugin-proposal-optional-chaining": "7.21.0",
     "@babel/polyfill": "7.12.1",
-    "@babel/preset-env": "^7.24.8",
+    "@babel/preset-env": "^7.25.2",
     "@babel/preset-flow": "7.24.7",
     "@babel/preset-react": "^7.24.7",
     "@babel/preset-typescript": "^7.24.6",
