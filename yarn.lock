@@ -6569,15 +6569,6 @@ relay-hooks@^9.0.0:
     "@restart/hooks" "^0.4.9"
     fbjs "^3.0.2"
 
-relay-runtime@17.0.0:
-  version "17.0.0"
-  resolved "https://registry.yarnpkg.com/relay-runtime/-/relay-runtime-17.0.0.tgz#771084ea3b44f2f1eb578da861511a5558c4e07b"
-  integrity sha512-7b2R3G3DP7VHq7/1ltwQfYn3KkTHIB2NNt3KijIZoNQ73avwpOXBEL0MelSXwq8L+K8lcgAW5VAT7o0LUhnJPQ==
-  dependencies:
-    "@babel/runtime" "^7.0.0"
-    fbjs "^3.0.2"
-    invariant "^2.2.4"
-
 relay-runtime@18.0.0:
   version "18.0.0"
   resolved "https://registry.yarnpkg.com/relay-runtime/-/relay-runtime-18.0.0.tgz#527eb9de7e4c804163500235d941fac1561e7c6b"
@@ -7272,10 +7263,10 @@ type-is@~1.6.18:
     media-typer "0.3.0"
     mime-types "~2.1.24"
 
-typescript@^5.5.4:
-  version "5.5.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.5.4.tgz#d9852d6c82bad2d2eda4fd74a5762a8f5909e9ba"
-  integrity sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==
+typescript@^5.6.2:
+  version "5.6.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.6.2.tgz#d1de67b6bef77c41823f822df8f0b3bcff60a5a0"
+  integrity sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==
 
 ua-parser-js@^0.7.30:
   version "0.7.31"
