@@ -567,13 +567,13 @@
     "@babel/helper-create-class-features-plugin" "^7.18.6"
     "@babel/helper-plugin-utils" "^7.18.6"
 
-"@babel/plugin-proposal-export-default-from@7.24.7":
-  version "7.24.7"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-export-default-from/-/plugin-proposal-export-default-from-7.24.7.tgz#0b539c46b8ac804f694e338f803c8354c0f788b6"
-  integrity sha512-CcmFwUJ3tKhLjPdt4NP+SHMshebytF8ZTYOv5ZDpkzq2sin80Wb5vJrGt8fhPrORQCfoSa0LAxC/DW+GAC5+Hw==
+"@babel/plugin-proposal-export-default-from@7.25.7":
+  version "7.25.7"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-export-default-from/-/plugin-proposal-export-default-from-7.25.7.tgz#7ed72dbdc834bc841953858664008ad30a6653d3"
+  integrity sha512-Egdiuy7pLTyaPkIr6rItNyFVbblTmx3VgqY+72KiS9BzcA+SMyrS9zSumQeSANo8uE3Kax0ZUMkpNh0Q+mbNwg==
   dependencies:
-    "@babel/helper-plugin-utils" "^7.24.7"
-    "@babel/plugin-syntax-export-default-from" "^7.24.7"
+    "@babel/helper-plugin-utils" "^7.25.7"
+    "@babel/plugin-syntax-export-default-from" "^7.25.7"
 
 "@babel/plugin-proposal-export-namespace-from@7.18.9":
   version "7.18.9"
@@ -651,12 +651,12 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
-"@babel/plugin-syntax-export-default-from@^7.24.7":
-  version "7.24.7"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-export-default-from/-/plugin-syntax-export-default-from-7.24.7.tgz#85dae9098933573aae137fb52141dd3ca52ae7ac"
-  integrity sha512-bTPz4/635WQ9WhwsyPdxUJDVpsi/X9BMmy/8Rf/UAlOO4jSql4CxUCjWI5PiM+jG+c4LVPTScoTw80geFj9+Bw==
+"@babel/plugin-syntax-export-default-from@^7.25.7":
+  version "7.25.7"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-export-default-from/-/plugin-syntax-export-default-from-7.25.7.tgz#3e05205c62303fe088f6b7073e5c143a669c26f4"
+  integrity sha512-LRUCsC0YucSjabsmxx6yly8+Q/5mxKdp9gemlpR9ro3bfpcOQOXx/CHivs7QCbjgygd6uQ2GcRfHu1FVax/hgg==
   dependencies:
-    "@babel/helper-plugin-utils" "^7.24.7"
+    "@babel/helper-plugin-utils" "^7.25.7"
 
 "@babel/plugin-syntax-export-namespace-from@^7.8.3":
   version "7.8.3"
