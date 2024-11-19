@@ -25,7 +25,7 @@
     "react-router-dom": "^6.28.0",
     "rebass": "^4.0.7",
     "relay-hooks": "^9.0.0",
-    "relay-runtime": "^16.2.0",
+    "relay-runtime": "^18.1.0",
     "relay-test-utils-internal": "^18.1.0",
     "styled-components": "^6.1.13"
   },
@@ -52,7 +52,7 @@
     "@types/react-dom": "^18.3.1",
     "@types/react-relay": "^16.0.6",
     "@types/rebass": "^4.0.15",
-    "@types/relay-runtime": "^14.1.24",
+    "@types/relay-runtime": "^18.1.1",
     "@types/styled-components": "^5.1.34",
     "babel-loader": "^9.2.1",
     "babel-plugin-relay": "^18.1.0",
