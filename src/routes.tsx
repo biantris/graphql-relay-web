@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes as Router } from 'react-router-dom';
 
 import EventHome from './components/event/EventHome';
 
-import Root from './components/event/Root';
+import Root from './components/Root';
 
 function Routes() {
   return (
