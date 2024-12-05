@@ -2469,10 +2469,10 @@
     "@types/styled-system" "*"
     "@types/styled-system__css" "*"
 
-"@types/relay-runtime@*", "@types/relay-runtime@^18.2.0":
-  version "18.2.0"
-  resolved "https://registry.yarnpkg.com/@types/relay-runtime/-/relay-runtime-18.2.0.tgz#e1b8e148f98f1900cc8166bf2b10455990c75993"
-  integrity sha512-BJ5N39QadH/mRQqytPlqcZSxq4E68oyrghMwy91ySHi2LAhD/CfnR3EjRjJ0QeYqma7pfKP1bGratLUefLzZvA==
+"@types/relay-runtime@*", "@types/relay-runtime@^18.2.1":
+  version "18.2.1"
+  resolved "https://registry.yarnpkg.com/@types/relay-runtime/-/relay-runtime-18.2.1.tgz#b1e6146d05289dc21125411c7e1ce830c65f0056"
+  integrity sha512-mbOf83T21BQhZOir/37dhEmqMMnIGQPLpJgZQrYpUuhIRov9vnavOyacemUGbM096odlNn27RxCszcWTXyzExg==
 
 "@types/retry@0.12.0":
   version "0.12.0"
