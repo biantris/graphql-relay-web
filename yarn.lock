@@ -1879,10 +1879,10 @@
   resolved "https://registry.yarnpkg.com/@mui/core-downloads-tracker/-/core-downloads-tracker-6.2.0.tgz#52953b858eaf3204ac505bf0329528fd3130c775"
   integrity sha512-Nn5PSkUqbDrvezpiiiYZiAbX4SFEiy3CbikUL6pWOXEUsq+L1j50OOyyUIHpaX2Hr+5V5UxTh+fPeC4nsGNhdw==
 
-"@mui/icons-material@^6.1.10":
-  version "6.1.10"
-  resolved "https://registry.yarnpkg.com/@mui/icons-material/-/icons-material-6.1.10.tgz#9ed27fc750ab4811da94c1a1252253d9d1e86cc2"
-  integrity sha512-G6P1BCSt6EQDcKca47KwvKjlqgOXFbp2I3oWiOlFgKYTANBH89yk7ttMQ5ysqNxSYAB+4TdM37MlPYp4+FkVrQ==
+"@mui/icons-material@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@mui/icons-material/-/icons-material-6.2.0.tgz#8815b7b064234f525a174dd8bc59eb2f8986e79b"
+  integrity sha512-WR1EEhGOSvxAsoTSzWZBlrWFjul8wziDrII4rC3PvMBHhBYBqEc2n/0aamfFbwkH5EiYb96aqc6kYY6tB310Sw==
   dependencies:
     "@babel/runtime" "^7.26.0"
 
