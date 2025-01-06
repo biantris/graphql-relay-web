@@ -27,7 +27,7 @@
     "relay-hooks": "^9.2.0",
     "relay-runtime": "^18.1.0",
     "relay-test-utils-internal": "^18.2.0",
-    "styled-components": "^6.1.13"
+    "styled-components": "^6.1.14"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
