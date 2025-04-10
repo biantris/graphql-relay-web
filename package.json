@@ -22,7 +22,7 @@
     "react-dom": "^18.3.1",
     "react-infinite-scroller": "^1.2.6",
     "react-relay": "^18.2.0",
-    "react-router-dom": "^6.28.0",
+    "react-router-dom": "^7.5.0",
     "rebass": "^4.0.7",
     "relay-hooks": "^9.2.0",
     "relay-runtime": "^18.1.0",
