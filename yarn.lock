@@ -2432,10 +2432,10 @@
     "@types/styled-system" "*"
     "@types/styled-system__css" "*"
 
-"@types/relay-runtime@*", "@types/relay-runtime@^18.2.5":
-  version "18.2.5"
-  resolved "https://registry.yarnpkg.com/@types/relay-runtime/-/relay-runtime-18.2.5.tgz#266fbb4ec80444cdca6984e90019ffeb0e958ea2"
-  integrity sha512-2ukE6xQMIpa3kG8F33kXZMcGl/VJdDjNW3eKjQVe1AZQaYnIpNX8vXpcRD6pc+No2rOwVFLbQ6thaPSXPs8ouQ==
+"@types/relay-runtime@*", "@types/relay-runtime@^19.0.1":
+  version "19.0.1"
+  resolved "https://registry.yarnpkg.com/@types/relay-runtime/-/relay-runtime-19.0.1.tgz#ddd6b347a447af27f3838e81c1b306393f8fcd79"
+  integrity sha512-CL+qytiGVqWDi3mLSKpwxnTFQbVq0Z0ejWWeutquqnNfSxwxN0p+FyoG6lb2ZIjzxBJazdLW2iX4NGAKS1LM0Q==
 
 "@types/retry@0.12.0":
   version "0.12.0"
@@ -6187,19 +6187,10 @@ relay-hooks@^9.3.0:
     "@restart/hooks" "^0.4.9"
     fbjs "^3.0.2"
 
-relay-runtime@19.0.0:
+relay-runtime@19.0.0, relay-runtime@^19.0.0:
   version "19.0.0"
   resolved "https://registry.yarnpkg.com/relay-runtime/-/relay-runtime-19.0.0.tgz#d199968e3a7e09bca3c5327172c86064bf7703b7"
   integrity sha512-uQqizN6d/7ZkTm2C0sTUAFfHk65BQEFLkfp0IBsXPTsXLL3fAJ2iHkemA621vuphtiKsF06C5ZKxypmC5lduFg==
-  dependencies:
-    "@babel/runtime" "^7.25.0"
-    fbjs "^3.0.2"
-    invariant "^2.2.4"
-
-relay-runtime@^18.1.0:
-  version "18.2.0"
-  resolved "https://registry.yarnpkg.com/relay-runtime/-/relay-runtime-18.2.0.tgz#36e2c88be6e13dcdf987d32a3063e3e491aafa43"
-  integrity sha512-r4FYWlx1dPwFW+KQnuF1ugwVKR4toIFduCGheEf2paRc6nEEcCIgd2p2Jx2gRF+4niO3mCbRZvqdCoKaznUDzg==
   dependencies:
     "@babel/runtime" "^7.25.0"
     fbjs "^3.0.2"
