@@ -9,7 +9,10 @@ import Box from "@mui/material/Box";
 
 import { Outlet } from "react-router-dom";
 
+import EventCreateDialog from "./event/eventCreate/EventCreateDialog";
+
 const Root = () => {
+
   return (
     <>
       <Box sx={{ flexGrow: 1 }}>
@@ -19,9 +22,7 @@ const Root = () => {
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
               GraphQL Relay Web
             </Typography>
-            <Button color="inherit" variant="outlined">
-              New Event
-            </Button>
+            <EventCreateDialog />
           </Toolbar>
         </AppBar>
         <Box
