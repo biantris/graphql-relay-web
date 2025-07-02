@@ -6167,10 +6167,10 @@ relay-compiler-language-typescript@^15.0.1:
   dependencies:
     invariant "^2.2.4"
 
-relay-compiler@^19.0.0:
-  version "19.0.0"
-  resolved "https://registry.yarnpkg.com/relay-compiler/-/relay-compiler-19.0.0.tgz#3f6d4c030883cbac6472ac185df4c921ff87b659"
-  integrity sha512-DwyNWPUkzdggT3oBuNTS18bL6KCU3Sg/oSW/q+pqOQNHLo+RUZOWAx44ALy5XoBrsXjQVBr0EiNqJ4A8G1skOw==
+relay-compiler@^20.0.0:
+  version "20.0.0"
+  resolved "https://registry.yarnpkg.com/relay-compiler/-/relay-compiler-20.0.0.tgz#319d7754a331c3e672deed139554776a94d561a8"
+  integrity sha512-SnsN9/Yjh5kmZbt91Wr70xv3VKORRHx3W4cB+yhz9FpzStlI7qkB9jDlGkvUa6hICZ+rbIooe7OekejjSQ2j5Q==
 
 relay-config@^12.0.1:
   version "12.0.1"
